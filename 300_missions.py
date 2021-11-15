@@ -5,7 +5,7 @@ delay = 3  # seconds
 url = 'http://192.168.6.65/'
 
 
-driver = webdriver.Chrome(executable_path="C:\Program Files\Chromedriver\chromedriver.exe")
+driver = webdriver.Chrome(executable_path="C:\Program Files\chromedriver_win32\chromedriver.exe")
 
 driver.get(url)
 
