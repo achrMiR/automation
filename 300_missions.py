@@ -2,7 +2,7 @@ from selenium import webdriver
 import time
 
 delay = 3  # seconds
-url = 'http://192.168.6.65/'
+url = 'http://192.168.5.50/'
 
 
 driver = webdriver.Chrome(executable_path="C:\Program Files\chromedriver_win32\chromedriver.exe")
